@@ -32,54 +32,56 @@ export default class Player extends Component {
           <img src="player.jpg" alt="" />
         </CardMedia>
         <CardText>
-          <Chip backgroundColor={blue200} styles={styles.chip}>
-            <Avatar size={32} color={blue200} backgroundColor={blue900}>
-              2
-            </Avatar>
-            Ball manipulation
-          </Chip>
-          <Chip backgroundColor={blue200} styles={styles.chip}>
-            <Avatar size={32} color={blue200} backgroundColor={blue900}>
-              2
-            </Avatar>
-            Kicking abilities
-          </Chip>
-          <Chip backgroundColor={blue200} styles={styles.chip}>
-            <Avatar size={32} color={blue200} backgroundColor={blue900}>
-              2
-            </Avatar>
-            Passing Abilities
-          </Chip>
-          <Chip backgroundColor={blue200} styles={styles.chip}>
-            <Avatar size={32} color={blue200} backgroundColor={blue900}>
-              2
-            </Avatar>
-            Duel Tackling
-          </Chip>
-          <Chip backgroundColor={blue200} styles={styles.chip}>
-            <Avatar size={32} color={blue200} backgroundColor={blue900}>
-              2
-            </Avatar>
-            Field Speed Coverage
-          </Chip>
-          <Chip backgroundColor={blue200} styles={styles.chip}>
-            <Avatar size={32} color={blue200} backgroundColor={blue900}>
-              2
-            </Avatar>
-            Blocking Abilities
-          </Chip>
-          <Chip backgroundColor={blue200} styles={styles.chip}>
-            <Avatar size={32} color={blue200} backgroundColor={blue900}>
-              2
-            </Avatar>
-            Game Strategy
-          </Chip>
-          <Chip backgroundColor={blue200} styles={styles.chip}>
-            <Avatar size={32} color={blue200} backgroundColor={blue900}>
-              2
-            </Avatar>
-            Play Making Risk
-          </Chip>
+          <div style={styles.wrapper}>
+            <Chip backgroundColor={blue200} style={styles.chip}>
+              <Avatar size={32} color={blue200} backgroundColor={blue900}>
+                2
+              </Avatar>
+              Ball manipulation
+            </Chip>
+            <Chip backgroundColor={blue200} style={styles.chip}>
+              <Avatar size={32} color={blue200} backgroundColor={blue900}>
+                2
+              </Avatar>
+              Kicking abilities
+            </Chip>
+            <Chip backgroundColor={blue200} style={styles.chip}>
+              <Avatar size={32} color={blue200} backgroundColor={blue900}>
+                2
+              </Avatar>
+              Passing Abilities
+            </Chip>
+            <Chip backgroundColor={blue200} style={styles.chip}>
+              <Avatar size={32} color={blue200} backgroundColor={blue900}>
+                2
+              </Avatar>
+              Duel/Tackling Abilities
+            </Chip>
+            <Chip backgroundColor={blue200} style={styles.chip}>
+              <Avatar size={32} color={blue200} backgroundColor={blue900}>
+                2
+              </Avatar>
+              Field Speed Coverage
+            </Chip>
+            <Chip backgroundColor={blue200} style={styles.chip}>
+              <Avatar size={32} color={blue200} backgroundColor={blue900}>
+                2
+              </Avatar>
+              Blocking Abilities
+            </Chip>
+            <Chip backgroundColor={blue200} style={styles.chip}>
+              <Avatar size={32} color={blue200} backgroundColor={blue900}>
+                2
+              </Avatar>
+              Game Strategy
+            </Chip>
+            <Chip backgroundColor={blue200} style={styles.chip}>
+              <Avatar size={32} color={blue200} backgroundColor={blue900}>
+                2
+              </Avatar>
+              Play Making Risk
+            </Chip>
+          </div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
           vehicula metus sit amet hendrerit mollis. Phasellus venenatis, metus
           laoreet molestie varius, magna odio dignissim velit, eu consectetur

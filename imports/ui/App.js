@@ -9,6 +9,46 @@ import Player from "./Player";
 
 // App component - represents the whole app
 export default class App extends Component {
+  getPlayers() {
+    return [
+      {
+        _id: 1,
+        name: "Ben Krier",
+        ballManipulation: 1,
+        kickingAbilities: 3,
+        passingAbilities: 3,
+        duelTackling: 2,
+        fieldCoverage: 2,
+        blockAbilities: 2,
+        gameStrategy: 3,
+        playmakingRisk: 2
+      },
+      {
+        _id: 2,
+        name: "Ben Krier",
+        ballManipulation: 1,
+        kickingAbilities: 3,
+        passingAbilities: 3,
+        duelTackling: 2,
+        fieldCoverage: 2,
+        blockAbilities: 2,
+        gameStrategy: 3,
+        playmakingRisk: 2
+      },
+      {
+        _id: 3,
+        name: "Ben Krier",
+        ballManipulation: 1,
+        kickingAbilities: 3,
+        passingAbilities: 3,
+        duelTackling: 2,
+        fieldCoverage: 2,
+        blockAbilities: 2,
+        gameStrategy: 3,
+        playmakingRisk: 2
+      }
+    ];
+  }
   render() {
     return (
       <MuiThemeProvider>
