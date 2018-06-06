@@ -3,8 +3,8 @@ import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import RaisedButton from "material-ui/RaisedButton";
 import AppBar from "material-ui/AppBar";
 
-import TeamList from "./Team-list";
-import TeamStats from "./Team-stats";
+import TeamList from "./TeamList";
+import TeamStats from "./TeamStats";
 import Player from "./Player";
 
 // App component - represents the whole app
